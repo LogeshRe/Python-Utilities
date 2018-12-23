@@ -4,6 +4,7 @@
 # Once again explorer opens. 
 # Give a name for file and save it as txt.
 # The file contains the list of all files in the folder.
+# 23/12/18
 
 
 from tkinter.filedialog import askdirectory
