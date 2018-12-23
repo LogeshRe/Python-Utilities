@@ -1,8 +1,5 @@
 # Python-Utilities
 Python code
-# On Running it opens file explorer. 
-# Choose the folder you want. 
-# Once again explorer open. 
-# Give a name for file and save it as txt.
-# The file contains the list of files in the folder.
+# Filelist.py - Program for getting list of files present in a folder and writting it to text file.
+# Businessdays.py - Program for getting the number of Business days(Number of days excluding saturday and sundays) between two given dates.
 
