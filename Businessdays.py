@@ -3,8 +3,6 @@
 
 class Businessdays:
 	 def __init__(self,date1,date2):
-	 	#self.date1 = date1
-	 	#self.date2 = date2
 	 	date1t = date1.split('/')
 	 	date2t = date2.split('/')
 	 	self.date1day = int(date1t[0])
@@ -26,14 +24,6 @@ class Businessdays:
 	 		dayo = (date.fromordinal(ordi))
 	 		if(dayo.weekday() == 6 or dayo.weekday() == 5):
 	 			count = count + 1
-	 	'''print(type(self.date1))
-	 	print(type(self.date2))
-	 	date1 = self.date1.split('/')
-	 	date2 = self.date2.split('/')
-	 	print(date1)
-	 	print(date2)
-	 	date1d = date(int('20'+ str(date1[2])),int(date1[1]),int(date1[0]))
-	 	date2d = date(int('20'+ str(date2[2])),int(date2[1]),int(date2[0]))'''
 	 	print(abs((date2 - date1).days) - count + 1)
 
 
